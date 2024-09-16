@@ -1,0 +1,27 @@
+# Node.js modules
+node_modules/
+
+# Cypress specific files
+cypress/screenshots/
+cypress/videos/
+cypress.json
+cypress.env.json
+
+# IDE-specific files
+.vscode/
+*.suo
+*.user
+*.sln
+*.sdf
+*.db
+*.pdb
+*.cache
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.swp

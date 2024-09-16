@@ -12,6 +12,7 @@ export default defineConfig({
   },
 
   e2e: {
+    experimentalRunAllSpecs: true,
     setupNodeEvents(on, config) {
       on(
         "file:preprocessor",
